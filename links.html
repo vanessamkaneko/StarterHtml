@@ -1,0 +1,89 @@
+<!--
+    Hyperlinks - elemento âncora: <a> - responsável por fazer a ligação de diversas páginas.
+    
+    A tag <a> pode receber atributos:
+        
+        - globais (como class, id, title, etc)
+        
+        - href: pode ser uma url completa, um fragmento, email, telefone, entre outros
+
+        - download (faz o donwload da página/link ao invés de ir p/ o link - no caso de uma imagem, ao invés de ir p/ a imagem, irá baixá-la)
+
+        - target
+            - _self (padrão): ao clicar no link, ele abrirá na mesma aba já aberta
+            
+            - _blank (+ usado): abrirá o link em uma nova aba, não saindo da página atual
+           
+-->
+
+<h1>Teste</h1>
+
+<ul> 
+
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q" target="_blank">Website</a></li>
+    <li><a href="mailto:vanessa.mitiek@gmail.com">Email</a></li>
+    <li><a href="tel:+5543998120089">Telefone</a></li>
+
+</ul>
+
+<!--
+    Exemplo abaixo de como funcionam os fragmentos...
+-->
+
+<p>Saiba mais</p>
+<ul>
+
+<li><a href="#aboutme">Sobre mim</a></li>
+<li><a href="#history">História</a></li>
+<li><a href="#works">Trabalhos</a></li>
+
+</ul>
+
+<h1 id="#aboutme">Sobre mim</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab sequi aut architecto labore vero modi illo quibusdam. Quaerat quasi reiciendis perspiciatis? Ea consequuntur maiores sit, modi vero rem neque!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa illo quas dolore quos debitis numquam corporis modi quaerat veritatis totam nisi distinctio, sunt atque itaque deleniti neque, nostrum reprehenderit.</p>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quis deserunt aperiam officiis nesciunt doloribus itaque dignissimos? Quae architecto similique blanditiis, sapiente esse veniam? Odio nisi voluptate nobis tempora distinctio.</p>
+
+<h1 id="#history">História</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam aut deleniti id, illo quia atque quasi debitis, eius vitae autem necessitatibus placeat omnis eum alias animi. Quod, tenetur optio.</p>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, necessitatibus culpa. Rerum, soluta facilis debitis sunt, ullam ad earum, corporis at consequatur veniam tempora molestiae beatae odio repellendus laborum odit?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa facilis, nostrum sequi quam libero cum a tenetur esse saepe eaque numquam quisquam aliquam facere nisi nulla dicta, fugit aliquid.</p>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque provident tempora velit sequi commodi ullam nemo unde ipsa molestiae illo dolorum vero deleniti laudantium illum natus, sed quia. Quis, corrupti?</p>
+
+<h2 id="works">Trabalhos</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi, in molestiae qui neque praesentium totam sed error aspernatur quo. Ipsum, numquam. Sequi, corporis eius dolores iusto eaque magni provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque quasi voluptate quisquam delectus aliquid amet nemo! Et ipsa dolorum explicabo ea earum, eum officiis accusantium doloremque at itaque optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos aut magni ratione. Quis optio voluptas temporibus saepe, nostrum laborum sed quia culpa? Consequatur doloribus quod consequuntur doloremque. Quos, illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe voluptas repudiandae similique! Ab beatae aspernatur, minus dolore voluptatum magnam sed quia hic ipsum optio consequatur nemo nostrum omnis inventore?
+
+<!--
+    Conteúdo dos Hyperlinks
+    - pode ser texto, imagem, outras tags...
+
+    EX: <a href="http://google.com">no caso esta parte é que pode vir qualquer tipo de conteúdo</a>
+-->
+
+<p>
+<a href="http://google.com" title="Ir para Google" target="_blank"> <h1>Página inicial</h1>
+
+    <p>Redirecionar</p>
+    <img src="https://source.unsplash.com/random" alt="">
+
+</a>
+
+
+
+</p>
+<!--
+    O title faz com que ao descansar o cursor sobre a Página inicial/Redirecionar/sobra a imagem, apareça o Ir para Google. obs: em serviços touch não aparecerá.
+
+    Como todos estão dentro da tag <a>, então qualquer um irá levar para o site do google.
+-->
+
+<a href="anatomia-document.html">Starter-html</a>
+
+<!--
+    Além de URLs, também é possível colocar um arquivo de uma pasta na tag <a>, neste caso, a pasta do projeto (Starter-html)
+-->
